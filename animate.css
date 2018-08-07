@@ -1,0 +1,30 @@
+
+.hi {
+  width: 50px;
+  height: 72px;
+  background-image: url("http://s.cdpn.io/79/sprite-steps.png");
+  -webkit-animation: multi-frames 0.8s steps(10, end) infinite;
+    -moz-animation: multi-frames 0.8s steps(10, end) infinite;
+    -o-animation: multi-frames 0.8s steps(10, end) infinite;
+    animation: multi-frames 0.8s steps(10, end) infinite;
+}
+
+
+
+@-webkit-keyframes multi-frames {
+	from {background-position: 0px;}
+	to {background-position: -500px;}
+  }
+  @-moz-keyframes multi-frames {
+	from {background-position: 0px;}
+	to {background-position: -500px;}
+  }
+  @-o-keyframes multi-frames {
+	from {background-position: 0px;}
+	to {background-position: -500px;}
+  }
+  @keyframes multi-frames{
+	from {background-position: 0px;}
+	to {background-position: -500px;}
+  }
+  
